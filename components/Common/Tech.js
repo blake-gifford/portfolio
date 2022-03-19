@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react"
+import Image from "next/image"
 
 const Tech = () => {
   return (
     <div>
-        <img id='tech' className='tech-img' src="/images/techstack-photo.png" alt="techstack photo" />
+        <Image width={1500} height={800} id="tech" className="tech-img" src="/images/techstack-photo.png" alt="techstack photo" />
     </div>
   )
 }

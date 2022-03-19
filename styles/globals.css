@@ -4,7 +4,7 @@
 
 .container-height {
   min-height: 100vh;
-  outline: solid red;
+  /* outline: solid red; */
 }
 
 .blue-background {
@@ -18,6 +18,11 @@
 .intro-text {
   text-align: center;
   padding-top: 25%;
+}
+
+.contact-form {
+  text-align: center;
+  padding-top: 15%;
 }
 
 .card-style {
