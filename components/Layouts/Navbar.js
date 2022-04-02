@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 
+
+
 const Navbar = () => {
     return (
         <div>
@@ -16,15 +18,9 @@ const Navbar = () => {
                     <Link href="#intro">
                         <a className="nav-item nav-link" >Home</a>
                     </Link>
-                    {/* <Link href="#tech">
-                        <a className="nav-item nav-link" >Preferred Tech</a>
-                    </Link> */}
                     <Link href="#personal">
                         <a className="nav-item nav-link" >Personal Projects</a>
                     </Link>
-                    {/* <Link href="#work">
-                        <a className="nav-item nav-link" >Work Projects</a>
-                    </Link> */}
                     <Link href="#contact">
                         <a className="nav-item nav-link" >Contact</a>
                     </Link>

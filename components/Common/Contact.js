@@ -2,11 +2,12 @@ import React from "react"
 
 const Contact = () => {
     return (
-        <div id="contact" className=" container-height contact-form">
+        <div id="contact" className="container-height contact-form">
             <h1 >Contact me below!</h1>
             <form 
                 method="POST" 
-                name="contactform" 
+                name="contactForm"
+                data-netlify="true"
                 className="contactForm">
                 <input 
                     type="text" 

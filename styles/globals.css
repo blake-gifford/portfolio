@@ -51,6 +51,12 @@
   text-align: center;
 }
 
+.tech-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tech-img {
   max-width: 100%;
 }
