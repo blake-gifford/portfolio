@@ -11,8 +11,8 @@ const PersonalProjects = () => {
                     <div className="card-body">
                         <h5 className="card-title">Trip App</h5>
                         <p className="card-text">A MERN app built for users to plan and organize future events/trips they want to go on.</p>
-                        <a href="https://github.com/blake-gifford/Trip_App" target='_blank' className="btn btn-primary card-btn-style">Github</a>
-                        <a href="https://recipe-book.blakegifford.com/" target='_blank' className="btn btn-primary card-btn-style">Demo</a>
+                        <a href="https://github.com/blake-gifford/Trip_App" target='_blank' rel="noreferrer" className="btn btn-primary card-btn-style">Github</a>
+                        <a href="https://recipe-book.blakegifford.com/" target='_blank' rel="noreferrer" className="btn btn-primary card-btn-style">Demo</a>
                     </div>
                 </div>
                 {/* <div className="card card-height" style={{ "width": "18rem" }}>
