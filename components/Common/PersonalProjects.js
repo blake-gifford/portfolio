@@ -9,8 +9,8 @@ const PersonalProjects = () => {
                 <div className="card card-height" style={{ "width": "18rem" }}>
                     <Image height={325} width={500} className="card-img-top" src="/images/recipe-website.png" alt="Card image cap" />
                     <div className="card-body">
-                        <h5 className="card-title">Trip App</h5>
-                        <p className="card-text">A MERN app built for users to plan and organize future events/trips they want to go on.</p>
+                        <h5 className="card-title">The Recipe Book</h5>
+                        <p className="card-text">React/Next.js app built for helping people decide what to cook/bake when they are hungry.</p>
                         <a href="https://github.com/blake-gifford/Trip_App" target='_blank' rel="noreferrer" className="btn btn-primary card-btn-style">Github</a>
                         <a href="https://recipe-book.blakegifford.com/" target='_blank' rel="noreferrer" className="btn btn-primary card-btn-style">Demo</a>
                     </div>
